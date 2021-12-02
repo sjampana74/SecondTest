@@ -1,4 +1,6 @@
-#create a lambda function and role
+#To create a lambda function 
+#To create a role and attach policy
+#To create a S3 trigger for event notifications that depends on the proper permissions on Bucket A
 
 resource "aws_iam_role" "iam_lambda" {
   name = "iam_role_for_lambda"
